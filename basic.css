@@ -1,0 +1,20 @@
+/* basic styling */
+html, body  {
+    background: #ffeead;
+}
+
+.header {
+    background-color: #96ceb4;
+}
+
+.menu {
+    background-color: #ff6f69;
+}
+
+.content {
+    background-color: #ffcc5c;
+}
+
+.footer {
+    background-color: #88d8b0;
+}
