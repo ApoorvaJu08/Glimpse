@@ -1,4 +1,9 @@
 /* basic styling */
+html {
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
 html, body  {
     background: #ffeead;
 }
@@ -17,4 +22,48 @@ html, body  {
 
 .footer {
     background-color: #88d8b0;
+}
+
+.title {
+    color: #ff6f69;
+    background-color: #ffeead;
+    padding: 30px 0 10px;
+    text-align: center;
+    margin: 0px
+}
+
+.wrapper > div {
+    color: #ffeead;
+    padding-left: 20px;
+    align-items: center;
+    font-size: 20px;
+    display: flex;
+}
+
+.row > div {
+    color: #ffeead;
+    padding-left: 20px;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
+
+.row > .header {
+    height: 40px;
+}
+
+.row > .content {
+    height: 100px;
+}
+
+.row > .menu {
+    height: 100px;
+}
+
+.row > .footer {
+    height: 40px;
+}
+
+body > .row {
+    margin: 0px;
 }
